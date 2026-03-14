@@ -1,54 +1,53 @@
-# Figma to HTML/CSS Landing Page
+# Figma Landing Page Conversion (HTML & CSS)
 
-This project is a **landing page built from a Figma design** using **HTML and CSS**.
+This project is a **landing page built from a Figma design** and converted into a working webpage using **HTML and CSS**.
 
-The goal of this project is to **practice converting UI designs into real web pages** while revising core front-end fundamentals before moving deeper into modern web and AI-powered applications.
+The main purpose of this project was to **revisit and strengthen my front-end fundamentals** while practicing real-world design implementation.
 
 ## 📌 Project Purpose
 
-This project was created to strengthen my ability to:
+- Practice converting **UI designs from Figma into code**
+- Strengthen understanding of **HTML structure**
+- Improve **CSS layout and styling**
+- Reinforce **Flexbox-based layouts**
+- Build faster development workflow before moving to advanced stacks
 
-- Convert Figma designs into responsive web layouts
-- Structure clean semantic HTML
-- Apply modern CSS styling
-- Practice layout systems like Flexbox
-- Improve UI accuracy from design to code
+This project is part of my journey of **rebuilding strong web development fundamentals** before moving rapidly into **AI-powered web solutions and full-stack development**.
 
 ## 🛠 Technologies Used
 
 - HTML5
 - CSS3
-- Flexbox
-- Figma (Design reference)
+- Flexbox Layout
+- Figma (Design Reference)
 
 ## 🎯 What I Practiced
 
-- Translating Figma components into HTML structure
-- Creating responsive sections for landing pages
-- Styling UI elements such as:
-  - Navigation bar
-  - Hero section
-  - Feature cards
-  - Buttons and hover effects
-- Managing layout spacing, alignment, and visual hierarchy
+- Translating a **Figma design into a real webpage**
+- Structuring a clean **HTML layout**
+- Styling components with CSS
+- Building navigation and landing page sections
+- Applying hover effects and basic UI interactions
 
-## 🚀 Project Goal
+## ⚠️ Project Status
 
-This project is part of my **rapid learning process** to refresh core web development skills and move quickly toward:
+Currently this landing page is **not responsive**, as the main goal of this version was **design-to-code practice and layout revision**.
 
-- JavaScript development
-- Modern frameworks like React and Next.js
-- AI-powered web applications
+Responsive improvements may be added later.
 
-## 📚 Learning Journey
+## 🚀 Next Steps in My Learning Journey
 
-I am currently rebuilding strong fundamentals in web development and sharing my progress publicly while building projects.
-
-Next focus areas:
 - Advanced JavaScript
 - React & Next.js
-- AI integrations in web applications
+- Full-stack development
+- AI-powered web applications
+
+## 📚 Learning Philosophy
+
+I believe strong fundamentals in **HTML, CSS, and JavaScript** are essential before building modern applications with frameworks and AI integrations.
+
+This project is part of my **continuous learning and building process**.
 
 ---
 
-⭐ This project represents a step in my journey toward building modern **AI-powered web solutions**.
+⭐ If you're also learning web development, feel free to explore the project and follow my journey.
