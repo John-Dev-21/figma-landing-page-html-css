@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    background-color: #F8F9FF;
+    color: #2D2D2D;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 37px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #009379;
+    font-weight: bold;
+}
+
+.get_started_btn {
+    background-color: #009379;
+    color: white;
+    padding: 15px 23px;
+    border-radius: 12px;
+    border: none;
+    display: inline-flex;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.howbtn {
+    background-color: #E5F4F2;
+    color: #009379;
+    font-weight: bold;
+    padding: 15px 23px;
+    border-radius: 12px;
+}
+
+/* make the hero section fill the viewport */
+.herosec {
+    height: 60vh;
+    /* or whatever height you need */
+    display: flex;
+    align-items: center;
+    /* vertical centre inside the section */
+    justify-content: space-between;
+    /* keep it on the right */
+}
+
+.visuals {
+    height: 92%;
+    margin: 0 40px;
+}
+
+.textbox {
+    margin: 0 46px;
+}
+
+.hero-title {
+    font-weight: bold;
+    color: #2D2D2D;
+    font-size: 3.5em;
+}
+
+.anima-text {
+    color: #056ede;
+    text-decoration: none;
+
+}
+
+.hero-description {
+    color: #2D2D2D;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.footerbox {
+    margin: 10px 40px;
+    border-top: 1px solid #e2e6ea;
+    border-bottom: 1.5px solid #e2e6ea;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 45px 0;
+}
+
+/* Section 2 styles */
+.sec2 {
+    height: 100vh;
+    margin: 81px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+.cardcont {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin: 38px 0;
+    justify-content: space-between;
+}
+
+.cards {
+    border: 1px solid #dce9e9;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 88%;
+    height: 100%;
+}
+
+.learn-btn {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    color: #009379;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 23px;
+}
+
+.learn-btn img {
+    width: 25px;
+}
+
+.card1-img {
+    height: 56px;
+}
+
+.cardfeatures {
+    font-size: 13px;
+    margin: 10px 21px;
+    text-align: center;
+}
+
+/* Section 3 styles */
+.sec3 {
+    height: 80vh;
+    margin: 81px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-snap-align: start;
+}
+.cardholder{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 38px 0;
+    justify-content: space-between;
+}
+.card{
+    background-color: white;
+    border-bottom: 3px solid #F2BFAF;
+    padding: 6px 27px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    color: #2D2D2D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 120px;
+}
+.cardheading{
+    font-size: 1.6em;
+    font-weight: bold;
+}
+.cardsubheading{
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #666;
+}
+.sec3container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Section 4 styles */
+.sec4{
+    height: 100vh;
+    margin: 50px 20px;
+}
+.pagecontent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+.pagecontent > img{
+    height: 60vh;
+    margin: 45px 36px;
+}
+.sec4 > .pagecontent > div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec4 > .pagecontent > .cont > span{
+    font-size: 2.6em;
+    font-weight: bold;
+}
+.getstartedbtn{
+    width: 15vw;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #009379;
+    color: white;
+    border: none;
+    border-radius: 17px;
+    padding: 5px 15px;
+    font-weight: 600;
+}
+.getstartedbtn > img{
+    width: 25px;
+}
